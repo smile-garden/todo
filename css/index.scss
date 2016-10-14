@@ -4,7 +4,7 @@
   list-style:none;
 }
 @mixin userem($design-size){
-  $device-size-list:320px, 360px, 375px, 380px, 412px, 414px, $design-size;
+  $device-size-list:$design-size, 414px, 412px, 380px, 375px, 360px,320px;
   @each $size in $device-size-list{
     @media screen and (min-width:$size){
       html{
