@@ -13,33 +13,9 @@ body {
   src: url(../font/iconfont.woff);
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 320px) {
   html {
-    font-size: 100px;
-  }
-}
-
-@media screen and (min-width: 414px) {
-  html {
-    font-size: 57.5px;
-  }
-}
-
-@media screen and (min-width: 412px) {
-  html {
-    font-size: 57.22222px;
-  }
-}
-
-@media screen and (min-width: 380px) {
-  html {
-    font-size: 52.77778px;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  html {
-    font-size: 52.08333px;
+    font-size: 44.44444px;
   }
 }
 
@@ -49,9 +25,33 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 375px) {
   html {
-    font-size: 44.44444px;
+    font-size: 52.08333px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  html {
+    font-size: 52.77778px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 57.22222px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 57.5px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 100px;
   }
 }
 
@@ -125,7 +125,7 @@ body {
 }
 
 .container .item-list {
-  width: 6.8rem;
+  width: 7rem;
   margin: 0.32rem auto 0;
   overflow: hidden;
 }
@@ -284,7 +284,7 @@ body {
   bottom: 0.2rem;
   left: 0;
   right: 0;
-  width: 6.8rem;
+  width: 7rem;
   border-radius: 3px;
   margin: auto;
 }

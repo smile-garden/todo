@@ -4,7 +4,7 @@
   list-style:none;
 }
 @mixin userem($design-size){
-  $device-size-list:$design-size, 414px, 412px, 380px, 375px, 360px,320px;
+  $device-size-list:320px, 360px, 375px, 380px, 412px, 414px, $design-size;
   @each $size in $device-size-list{
     @media screen and (min-width:$size){
       html{
@@ -80,7 +80,7 @@ body{
   }
 
   .item-list{
-    width:6.8rem;
+    width:7rem;
     margin:0.32rem auto 0;
     overflow:hidden;
   }
@@ -223,7 +223,7 @@ body{
   bottom:0.2rem;
   left:0;
   right:0;
-  width:6.8rem;
+  width:7rem;
   border-radius:3px;
   margin:auto;
   &.dibuzz{
