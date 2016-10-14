@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="todo">
+    <link rel="apple-touch-icon" href="appt.png">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="todo">
+    <link rel="icon" sizes="192x192" href="appt-192x192.png">
+</head>
+<body>
+<div class="container">
+    <!--头部-->
+    <div class="header">
+        <span class="nav icon-daohang-copy"></span>
+        <span class="name">番茄ToDo</span>
+        <span class="add icon-jiahao"></span>
+    </div>
+    <!--被添加的事件-->
+    <ul class="item-list"></ul>
+    <div class="footer">
+        <div class="footers">
+            <p class="dao icon-daohangfenlei"></p>
+            <p class="daiban">待办</p>
+        </div>
+        <div class="footerx">
+            <p class="dao icon-daohangfenlei1"></p>
+            <p class="daiban">待办集</p>
+        </div>
+    </div>
+    <!--遮罩 添加事件弹窗-->
+    <div class="zhezhaobox">
+        <div class="addsj">
+            <div class="add-inners">
+                <span>增加一个Todo</span>
+            </div>
+            <div class="add-innerx">
+                <input class="shuru" type="text" placeholder="请输入事件名称">
+                <div class="button">确定</div>
+            </div>
+        </div>
+        <div class="dibutool">
+            <ul class="toollist">
+                <li>置顶</li>
+                <li>提醒</li>
+                <li>全部删除</li>
+                <li>删除</li>
+            </ul>
+            <div class="quxiao">取消</div>
+        </div>
+    </div>
+    <!--登录界面-->
+    <div class="denglu">
+        <div class="tou">
+            <div class="touxiang"></div>
+            <div class="weidl">未登录</div>
+            <div class="queren">请点击默认头像登录</div>
+        </div>
+        <ul class="menu">
+            <li class="cd">菜单</li>
+            <li><span class="tuzi icon-xiaoren"></span><span class="zi">我的统计数据</span></li>
+            <li><span class="tuzi icon-caigoujihua"></span><span class="zi"></span>未来计划表</li>
+            <li><span class="tuzi icon-qiyuan"></span><span class="zi"></span>小憩</li>
+            <li><span class="tuzi icon-yuntianchong"></span><span class="zi"></span>同步云</li>
+        </ul>
+        <div class="wei">
+            <li>打赏&支持</li>
+            <li>设置</li>
+            <li>关于</li>
+            <li>反馈</li>
+        </div>
+    </div>
+</div>
+</body>
+</html>
