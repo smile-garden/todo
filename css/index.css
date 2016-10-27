@@ -125,7 +125,7 @@ body {
 }
 
 .container .item-list {
-  width: 7rem;
+  width: 6.8rem;
   margin: 0.32rem auto 0;
   overflow: hidden;
 }
@@ -284,7 +284,7 @@ body {
   bottom: 0.2rem;
   left: 0;
   right: 0;
-  width: 7rem;
+  width: 6.8rem;
   border-radius: 3px;
   margin: auto;
 }
